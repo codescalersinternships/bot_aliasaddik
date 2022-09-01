@@ -7,8 +7,7 @@ terraform {
 }
 
 provider "grid" {
-    mnemonics = "relief replace patrol sibling broom real certain drastic fringe truck source certain"
-    network = "dev"
+   
 }
 
 resource "grid_network" "myBotAS" {
